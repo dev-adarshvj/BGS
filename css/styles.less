@@ -1,0 +1,305 @@
+@import url('variables.less');
+@import url('typography.less');
+.clear{
+  float: left;
+  width: 100%;
+}
+.wrapper{
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  .container {
+    max-width: 1650px;
+}
+
+header{
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0,0,0,.7);
+  .logo{
+    float: left;
+  }
+  .header_top_links{
+    float: right;
+margin-top: 25px;
+  .site_nav {
+    float: right;
+    nav.navbar{
+      padding: 0;
+      margin: 0;
+      ul{
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        li{
+          float: left;
+          list-style: none;
+          line-height: 100%;
+          a{
+            padding: 0;
+            margin: 0 15px 0 15px;
+            color: #fff;
+            text-transform: uppercase;
+
+          }
+        }
+      }
+    }
+
+}
+.site_search{
+  float: right;
+  margin-left: 15px;
+  a{
+    background-image: url(../images/Search.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 27px;
+    display: inline-block;
+
+  }
+}
+.hamburger_menu{
+  float: right;
+  margin-left: 15px;
+  a{
+    float: right;
+width: 30.82px;
+height: 23.33px;
+position: relative;
+    span{
+      width: 18.82px;
+        height: 3px;
+        background-color: #2996D9;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+      right: 0;
+&:before{
+  width: 30.82px;
+      height: 3px;
+      background-color: #2996D9;
+      content: "";
+      position: absolute;
+      top: 10px;
+      right: 0;
+}
+&:after{
+  width: 30.82px;
+      height: 3px;
+      background-color: #2996D9;
+      content: "";
+      position: absolute;
+      top: 20px;
+      right: 0;
+}
+    }
+  }
+
+}
+  }
+}
+.home_content{
+  padding: 50px 0;
+}
+.slider_wrapper{
+  .slider {
+    position: relative;
+}
+.slider_caption {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+.practice_areas_slider{
+  position: absolute;
+      left: 0;
+      bottom: 30px;
+      right: 0;
+      margin: 0 auto;
+      text-align: center;
+      display: inline-block;
+}
+}
+.Lawyer_profiles{
+    padding: 50px 0;
+  a.Lawyer_profiles_right_arrow {
+    float: right;
+}
+a.Lawyer_profiles_left_arrow {
+    float: left;
+}
+  .Lawyer_profiles_image {
+      float: left;
+      width: 253px;
+      clear: both;
+  }
+  .Lawyer_profiles_content {
+    float: left;
+    width: 68%;
+}
+}
+.practice_areas{
+  background-color: #EFEFEF;
+    padding: 50px 0;
+  .container{
+        max-width: 1826px;
+  }
+  .practice_areas_slider{
+    display: inline-block;
+    .practice_areas_item {
+    float: left;
+    width: 449px;
+    position: relative;
+    padding: 0 5px;
+    .practice_areas_image{
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .practice_areas_content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+}
+  }
+  .practice_areas_tab
+  {
+    ul{
+      padding: 0;
+      margin: 0;
+      li{
+        list-style: none;
+        display: inline-block;
+        a{
+display: inline-block;
+margin: 0 15px;
+        }
+      }
+    }
+  }
+}
+.testimonials{
+  background-color: #EFEFEF;
+  .testimonial_video {
+    float: left;
+    width: 50%;
+    position: relative;
+    a.play_button{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+    }
+}
+.testimonial_content{
+  float: left;
+  width: 50%;
+}
+}
+.logo_slider_wrapper{
+    padding: 50px 0;
+  .logo_slider{
+    a{
+      display: inline-block;
+      margin: 0 30px;
+    }
+  }
+}
+.contact_form_wrapper{
+  background-image: url(../images/quality-legal-service.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 250px 0 0 0;
+  .contact_form {
+    background-color: #EFEFEF;
+    padding: 50px;
+    a.btn{
+      float: right;
+    }
+    input{
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    textarea{
+      width: 100%;
+          margin-bottom: 15px;
+    }
+}
+}
+.contact_with_us_wrapper{
+    padding: 50px 0;
+  .contact_with_us{
+    margin: 0 -15px;
+    .contact_with_us_item{
+      padding: 0 15px;
+      float: left;
+      width: 33.33%;
+      ul.social_icon{
+        padding: 0;
+        margin: 0;
+        li{
+          list-style: none;
+          display: inline-block;
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}
+footer{
+  background-color: #2B2B2B;
+  padding: 50px 0;
+  .footer_links{
+    .pay_bill{
+      float: right;
+    }
+    ul{
+      float: right;
+      li{
+        list-style: NONE;
+        float: left;
+        a{
+          color: #fff;
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+  .credits{
+    float: right;
+    width: 100%;
+    ul{
+        float: right;
+        padding: 0;
+        margin: 0;
+      li{
+        list-style: NONE;
+        float: left;
+        a{
+          color: #fff;
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+
+  p{
+    color: #fff;
+  }
+  span{
+        color: #fff;
+  }
+}
+
+}
